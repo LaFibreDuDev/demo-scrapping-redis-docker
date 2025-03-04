@@ -9,7 +9,7 @@ services:
   puppeteer:
     build: .
     container_name: puppeteer_cron
-    volumes:
+    #volumes:
       #- .:/usr/src/app
     environment:
       - NODE_ENV=production
