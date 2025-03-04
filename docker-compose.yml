@@ -10,7 +10,7 @@ services:
     build: .
     container_name: puppeteer_cron
     volumes:
-      - .:/usr/src/app
+      #- .:/usr/src/app
     environment:
       - NODE_ENV=production
       - REDIS_URL=redis://redis:6379
